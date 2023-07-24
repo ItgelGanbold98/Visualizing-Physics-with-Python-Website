@@ -1,0 +1,147 @@
+body {
+    background-color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto; 
+    width: 1420px;
+}
+
+.logo {
+    width: 25%;
+    float: left;
+    padding-left: 0px;
+    
+}
+
+.title {
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+
+#container {
+    background-color:antiquewhite;
+    height: 160px; 
+    width: 100%; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 10px;
+}
+
+#content {
+    position: relative;
+    height: 350px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+li {
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+ul li:hover, li:active {
+    background-color:antiquewhite;
+    
+    text-decoration:none;
+}
+
+.nav_logo {
+    float: left;
+    width: 13%;
+    padding-right: 15px;
+}
+
+.paragraph {
+    position: absolute;
+    float: right;
+    left: 20%;
+    top: -7.5%;
+    width: 78%;
+    font-size: 22px;
+}
+
+p {
+    text-align: justify;
+    line-height: 36px;
+}
+
+
+
+#nav_bar {
+
+    border-radius: 10px;
+    display: block;
+    background-color: bisque;
+    width: 240px;
+    height: 240px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    list-style-type: none;
+    font-size: 22px;
+    color:rgb(155, 90, 35);
+}
+
+.video_showcase {
+    border-radius: 5px;
+    width: 33%;
+    height: 33%;
+}
+
+.download {
+    display: inline;
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.spacer {
+    height: 100px;
+}
+
+code {
+    color: darkgreen;
+}
+
+pre code {
+    border-radius: 3px;
+    background-color: rgb(249, 255, 203);
+    border: 1px solid #777;
+    display: block;
+    padding: 20px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #000;
+    text-align: left;
+    padding: 5px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+div ul li a {
+    text-decoration:none; 
+    display: block;
+}
+
+video {
+    width: 80%;
+}

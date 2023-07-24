@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animating Physics</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <a href="https://docs.manim.community/en/stable/" target="_blank"><img class="logo" src="assets/main logo.svg" alt="Manim_logo"> </a>
+
+        <h1 class="title" style="font-size: 42px ;">
+            Visualising Physics with Manim
+        </h1>
+        <h2 class="title">
+            A powerful Python library
+        </h2>
+        <a href="http://python.org/downloads/" target="_blank"><img src="assets/python logo.svg" alt="Python_logo" style="position: relative; right: -750px; top: -100px; "></a>
+        <a href="http://github.com/3b1b/manim" target="_blank"><img src="assets/github logo.svg" alt="Github_logo" style="position: relative; right: -800px; top: -120px; width: 7.5%; "></a>
+    </div>
+
+
+
+
+
+    <div id="content">
+
+        <div>
+            <ul id="nav_bar">
+                <li><a href="index.html"><img src="assets/home.svg" alt="Home_button" class="nav_logo">HOME</a></li>
+                <li><a href="getstarted.html"><img src="assets/get started.svg" alt="Get_started_button" class="nav_logo">GET STARTED</a></li>
+                <li><a href="gallery.html"><img src="assets/gallery.svg" alt="Gallery_button" class="nav_logo">GALLERY</a></li>
+                <li style = "background-color: antiquewhite;"><a href="indepthlook.html" style="color: navy;"><img src="assets/donate.svg" alt="Indepth_button" class="nav_logo">IN DEPTH LOOK</a></li>
+                <li><a href="about.html"><img src="assets/about.svg" alt="About_button" class="nav_logo">ABOUT</a></li>
+            </ul>
+        
+            <div class="paragraph">
+                <p>
+                    <h2>What is Linear Transformation?</h2>
+                    <p>
+                    In mathematics, a linear transformation is at the core of <a href="https://en.wikipedia.org/wiki/Linear_algebra" target="_blank">linear algebra</a>. A number plane has x and y axes. These two axes have 
+                    corresponding "unit vectors". These are [1,0] and [0,1]. A vector can be thought of as an arrow. The tail of this arrow sits at the origin and the tip
+                    is defined by a pair of numbers. These numbers, like the one I mentioned earlier, are often called "matrix" or "matrices" in the plural. 
+                    The first number in our matrix tells us where the tip of this vector is in the horizontal direction
+                    and the second number tells us where the tip of this vector is in the vertical direction. In the video below, we apply the linear transformation that
+                    takes the unit vector x = [1,0] (in red) to a new vector [1,1] and the unit vector y = [0,1] (in green) to a new vector [-1,0]. This transformation
+                    is applied to the entire number plane as you can see. <br><br>
+                    <div>
+                    <div  style="display: inline-block; padding-right: 40px;">
+                    <table>
+                        <tr>
+                            <th>x old</th>
+                            <th>y old</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <th>0</th>
+                        </tr>
+                        <tr>
+                            <th>0</th>
+                            <th>1</th>
+                        </tr>
+                    </table>
+                    </div>
+                    becomes 
+                    <div  style="display: inline-block; padding-left: 40px;">
+                    <table>
+                        <tr>
+                            <th>x new</th>
+                            <th>y new</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <th>-1</th>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <th>0</th>
+                        </tr>
+                    </table>
+                    </div>
+                    </div>
+                    <br>
+
+                    <video controls style="width: 70%;">
+                        <source src="assets/videos/LTScene.mp4">
+                    </video>
+                    </p>
+                    <br>
+                    <br>
+                    <h2>What is Vector Field Flow?</h2>
+                    <p>
+                        Imagine a 2D plane where at each point you have a defined vector. This means at every x and y value, you can compute a direction
+                        and a magnitude. This idea gives rise to a <a href="https://en.wikipedia.org/wiki/Vector_field" target="_blank">vector field</a>. It turns out that such a tool is very useful in many areas of mathematics
+                        and physics. You can analyse things like the population dynamics of predators and pray to the fluid dynamics of liquids or gases.
+                        The rule that defines a given vector field can also be time-dependent. This means we have an extra parameter t to toy with.
+                        In fluid dynamics, we can apply physical laws, such as the <a href="https://en.wikipedia.org/wiki/Continuity_equation#:~:text=A%20continuity%20equation%20or%20transport,apply%20to%20any%20extensive%20quantity." target="_blank">continuity equation</a> 
+                        or the <a href="https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations" target="_blank"> Navier-Stokes equation </a> to make sure energy and
+                        mass are conserved. <br><br>
+                        <video controls style="width: 70%;">
+                            <source src="assets/videos/vector field.mp4">
+                        </video>
+                    </p>
+                    <br>
+                    <br>
+                    <h2>What is the Bohr Model of the Atom?</h2>
+                    <p>
+                        Before the formulation of Quantum Mechanics, scientists had created many different models of the atom. A very successful model was 
+                        presented by <a href="https://en.wikipedia.org/wiki/Niels_Bohr" target="_blank">Niels Bohr</a> and <a href="https://en.wikipedia.org/wiki/Ernest_Rutherford" target="_blank">Ernest Rutherford</a> in the early 20th century. Their <a href="https://en.wikipedia.org/wiki/Bohr_model" target="_blank">model</a> was able to describe the Rydberg formula 
+                        and the emission spectrum of atoms. When atoms are excited, they produce characteristic wavelengths of electromagnetic 
+                        radiation. The Bohr model described these as levels of electron excitations. When an excited electron spontaneously jumps down
+                        to a lower level, the difference in energy is released as a photon with the same energy. This model is very simple
+                        but it laid the groundwork for a more accurate model to be formulated later thanks to Quantum Mechanics.
+                        The model shows a positively charged nucleus is surrounded by negatively charged orbiting electrons. The animation below
+                        shows the existence of different energy levels the electrons can occupy and how large jumps in levels correspond to higher energy 
+                        (lower wavelength) photon emission.
+                        <br><br>
+                        <video controls style="width: 70%;" poster="assets/videos/bohr_poster.PNG">
+                            <source src="assets/videos/Bohr.mp4">
+                        </video>
+                        <br>
+                        <br>
+
+                    
+                    </p>
+                    <h2>What is the Momentum Conservation Law?</h2>
+                    <p>
+                        Objects in motion have a quantitative property called <a href="https://en.wikipedia.org/wiki/Momentum" target="_blank">"momentum"</a>. 
+                        Momentum is defined as the velocity of the object times it's mass.
+                        And in a closed system, this property is conserved or kept constant from moment to moment. The video below shows two colliding blocks
+                        each having its own velocities. The formula at the end shows that the momentum of each object combined before the collision 
+                        is equal to the momentum of each object combined after the collision. This is called the conservation of momentum and is a fundamental 
+                        law of nature. From tiny atoms to rotating black holes many billions of times the mass of our sun all obey this law!
+                        <br><br>
+                        <video controls style="width: 70%;" poster="assets/videos/momentum poster.png">
+                            <source src="assets/videos/Momentum.mp4">
+                        </video>
+                    </p>
+                    
+                
+            </div>
+        </div>
+    </div>
+
+<div class="spacer">
+    <p>
+        
+    </p>
+</div>
+</body>
+</html>
