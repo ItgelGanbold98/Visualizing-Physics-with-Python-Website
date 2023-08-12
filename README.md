@@ -1,8 +1,9 @@
 # Visualizing_Physics_Code
-[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://www.w3schools.com/html/)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://www.w3schools.com/js/default.asp)
-[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://www.w3schools.com/css/)
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
 
 <a href="https://docs.manim.community/en/stable/">
         <img src = 'https://www.manim.community/logo.png' style='height: 80px'/> 
